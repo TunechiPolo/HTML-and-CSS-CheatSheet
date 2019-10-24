@@ -1,0 +1,10 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+table {
+    table-layout: fixed;
+    width: 70%;
+    border-collapse: collapse;
+    border: 3px black;
+}
