@@ -10,10 +10,10 @@
 
 <body>
     <!-- Navigation Section -->
-    <nav>
+    <nav class="navigation-1">
         <ul>
             <li><a href="#tags">HTML Tags</a></li> 
-            <li><a href="#tables">HTML Tables</a></li>
+            <li><a href="#tables-header">HTML Tables</a></li>
             <li><a href="#forms">HTML Forms</a></li>
             <li><a href="#form validation">HTML Form Validation</a></li>
             <li><a href="#semantic html">Semantic HTML</a></li>
@@ -21,54 +21,58 @@
     </nav>
 
     <!-- HTML Tags Section -->
-    <h1 id="tags">HTML Tags</h1>
-    <p>
-        While some tags have a very specific purpose, such as image and video tags, most tags are used to describe the content that they surround, which helps us modify and style our content later. A full list of HTML tags can be found in <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element" target="_blank">Mozilla documentation</a>.
-    </p>
-    <table class="html_tables" border="1">
-        <tbody>
-            <thead>
-                <tr><th colspan="2">HTML Tags</th></tr>
-            </thead>
+    <div class="tags-1">
+        <div class="tags-2">
+            <h1 id="tags-header">HTML Tags</h1>
+            <p id= "tags-text">While some tags have a very specific purpose, such as image and video tags, most tags are used to describe the content that they surround, which helps us modify and style our content later. A full list of HTML tags can be found in <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element" target="_blank">Mozilla documentation</a>.</p>
+        </div>
+        
+        <table class="tags-3" border="1">
+            <tbody>
+                <thead>
+                    <tr><th colspan="2">HTML Tags</th></tr>
+                </thead>
 
-            <tr>
-                <th>Tag</th>
-                <th>Description</th>
-            </tr>
-            <tr>
-                <td>&lt;!DOCTYPE html&gt;</td>
-                <td>This lets the browser know what version of HTML to expect. The <a href="https://developer.mozilla.org/en-US/docs/Glossary/Doctype" target="_blank">&lt;!DOCTYPE html&gt;</a> declaration should always be the first line of code in your HTML files.</td>
-            </tr>
-            <tr>
-                <td>&lt;html&gt;</td>
-                <td>The <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/html" target="_blank">&lt;html&gt;</a> element will contain all of your code.</td>
-            </tr>
-            <tr>
-                <td>&lt;head&gt;</td>
-                <td>Information about the web page, like the title, belongs in the &lt;head&gt; element.</td>
-            </tr>
-            <tr>
-                <td>&lt;title&gt;</td>
-                <td>You can add a title to your webpage by using the &lt;title&gt; element, inside of the head. A webpage's title appears in a browser's tab.</td>
-            </tr>
-            <tr>
-                <td>&lt;a&gt;</td>
-                <td>Anchor tags (&lt;a&gt;) are used to link to internal pages, external pages, or content on the same page. You can create sections on a webpage and jump to them using &lt;a&gt; tags and adding &lt;id&gt;'s to the elements you wish to jump to.</td>
-            </tr>
-            <tr>
-                <td>&lt;!-- comment --&gt;</td>
-                <td>Comments are written in HTML using the following syntax: <strong>&lt;!-- comment --&gt;</strong></td>
-            </tr>
-        </tbody>
-    </table>
+                <tr>
+                    <th>Tag</th>
+                    <th>Description</th>
+                </tr>
+                <tr>
+                    <td class="tags-cells">&lt;!DOCTYPE html&gt;</td>
+                    <td class="tags-cells">This lets the browser know what version of HTML to expect. The <a href="https://developer.mozilla.org/en-US/docs/Glossary/Doctype" target="_blank">&lt;!DOCTYPE html&gt;</a> declaration should always be the first line of code in your HTML files.</td>
+                </tr>
+                <tr>
+                    <td class="tags-cells">&lt;html&gt;</td>
+                    <td class="tags-cells">The <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/html" target="_blank">&lt;html&gt;</a> element will contain all of your code.</td>
+                </tr>
+                <tr>
+                    <td class="tags-cells">&lt;head&gt;</td>
+                    <td class="tags-cells">Information about the web page, like the title, belongs in the &lt;head&gt; element.</td>
+                </tr>
+                <tr>
+                    <td class="tags-cells">&lt;title&gt;</td>
+                    <td class="tags-cells">You can add a title to your webpage by using the &lt;title&gt; element, inside of the head. A webpage's title appears in a browser's tab.</td>
+                </tr>
+                <tr>
+                    <td class="tags-cells">&lt;a&gt;</td>
+                    <td class="tags-cells">Anchor tags (&lt;a&gt;) are used to link to internal pages, external pages, or content on the same page. You can create sections on a webpage and jump to them using &lt;a&gt; tags and adding &lt;id&gt;'s to the elements you wish to jump to.</td>
+                </tr>
+                <tr>
+                    <td class="tags-cells">&lt;!-- comment --&gt;</td>
+                    <td class="tags-cells">Comments are written in HTML using the following syntax: <strong>&lt;!-- comment --&gt;</strong></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
 
 
     <!-- HTML Tables Section -->
-    <h1 id="tables">HTML Tables</h1>
-    <p>
-        HTML tables can be created, added to, modified, or sectioned into smaller parts making them easier to read, using the following tags:
-    </p>
-    <table border="1">
+    <div class="tables-1">
+        <div class="tables-2">
+            <h1 id="tables-header">HTML Tables</h1>
+            <p id="tables-text">HTML tables can be created, added to, modified, or sectioned into smaller parts making them easier to read, using the following tags:</p>
+        </div>
+    <table class="tables-3" border="1">
         <thead>
             <tr><th colspan="2">HTML Tables</th></tr>
         </thead>
@@ -78,48 +82,48 @@
             <th>Description</th>
         </tr>
         <tr>
-            <td>&lt;table&gt;</td>
-            <td>The &lt;table&gt; element creates a table.</td>
+            <td class="tables-cells">&lt;table&gt;</td>
+            <td class="tables-cells">The &lt;table&gt; element creates a table.</td>
         </tr>
         <tr>
-            <td>&lt;tr&gt;</td>
-            <td>The &lt;tr&gt; element creates a table.</td>
+            <td class="tables-cells">&lt;tr&gt;</td>
+            <td class="tables-cells">The &lt;tr&gt; element creates a table.</td>
         </tr>
         <tr>
-            <td>&lt;td&gt;</td>
-            <td>To add data to a row, you can use the &lt;td&gt; element.</td>
+            <td class="tables-cells">&lt;td&gt;</td>
+            <td class="tables-cells">To add data to a row, you can use the &lt;td&gt; element.</td>
         </tr>
         <tr>
-            <td>&lt;th&gt;</td>
-            <td>Table headings clarify the meaning of data. Headings are added with the &lt;th&gt; element.</td>
+            <td class="tables-cells">&lt;th&gt;</td>
+            <td class="tables-cells">Table headings clarify the meaning of data. Headings are added with the &lt;th&gt; element.</td>
         </tr>
         <tr>
-            <td>colspan</td>
-            <td>Table data can span columns using the <strong>colspan</strong> attribute.</td>
+            <td class="tables-cells">colspan</td>
+            <td class="tables-cells">Table data can span columns using the <strong>colspan</strong> attribute.</td>
         </tr>
         <tr>
-            <td>rowspan</td>
-            <td>Table data can span rows using the <strong>rowspan</strong> attribute.</td>
+            <td class="tables-cells">rowspan</td>
+            <td class="tables-cells">Table data can span rows using the <strong>rowspan</strong> attribute.</td>
         </tr>
     </table>
-
-    <p>
+    <p class="tables-4">
         Tables can be split into three main sections: a head, a body, and a footer:
     </p>
     <table border="1">
         <tr>
-            <td>&lt;thead&gt;</td>
-            <td>A table's head is created with the &lt;thead&gt; element.</td>
+            <td class="tables-cells">&lt;thead&gt;</td>
+            <td class="tables-cells">A table's head is created with the &lt;thead&gt; element.</td>
         </tr>
         <tr>
-            <td>&lt;tbody&gt;</td>
-            <td>A table's body is created with the &lt;tbody&gt; element.</td>
+            <td class="tables-cells">&lt;tbody&gt;</td>
+            <td class="tables-cells">A table's body is created with the &lt;tbody&gt; element.</td>
         </tr>
         <tr>
-            <td>&lt;tfoot&gt;</td>
-            <td>A table's footer is created with the &lt;tfoot&gt; element.</td>
+            <td class="tables-cells">&lt;tfoot&gt;</td>
+            <td class="tables-cells">A table's footer is created with the &lt;tfoot&gt; element.</td>
         </tr>
     </table>
+    </div>
 
     <!-- HTML Forms Section -->
     <h1 id="forms">HTML Forms</h1>
